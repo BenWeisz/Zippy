@@ -1,10 +1,14 @@
 #pragma once
 
+// Ben Weisz | 2023 August
+// Under WTFPL license | http://www.wtfpl.net/
+
 #include <iostream>
 #include <filesystem>
 #include <string>
 #include <fstream>
 
+// libzip is released under a 3-clause BSD license | https://libzip.org/license/
 #include <zip.h>
 
 /* Zip up a folder into a .zip file:
